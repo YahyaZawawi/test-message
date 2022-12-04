@@ -115,7 +115,6 @@ body {
 
         p {
           color: #777;
-
         }
 
         .btn {
@@ -276,7 +275,6 @@ body {
             letter-spacing: 2px;
             text-transform: uppercase;
           }
-
         }
       }
     }
@@ -401,7 +399,6 @@ body {
 
             p {
               font-style: italic;
-
             }
           }
         }
@@ -447,19 +444,6 @@ body {
           align-items: center;
           display: flex;
 
-          textarea {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            outline: none;
-            color: var(--black);
-            background: var(--white2);
-            font-size: 16px;
-            border: 1px solid rgba(0,0,0, 0.1);
-            resize: none;
-            height: 200px;
-          }
-
           input[type="submit"] {
             background: var(--black2);
             color: #fff;
@@ -474,6 +458,25 @@ body {
             border: none;
           }
         }
+
+        .row2__message {
+          margin-top: 55px;
+
+          .textbox {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            outline: none;
+            color: var(--black);
+            background: var(--white2);
+            font-size: 16px;
+            border: 1px solid rgba(0,0,0, 0.1);
+            resize: none;
+            height: 200px;
+            text-align: center;
+            top: 500px;
+          }
+        }
         // - - - - - Copyright  - - - - - //
         .copyright {
           position: relative;
@@ -484,7 +487,6 @@ body {
         // - - - - - Copyright Ends - - - - - //
       }
     }
-
     // - - - - - Contact Ends - - - - - //
   }
   // end of the main class
@@ -532,9 +534,7 @@ body {
   }
 
   #banner {
-    @media (max-width: 992px){
-
-    }
+    @media (max-width: 992px) {}
   }
   @media (max-width: 992px) {
     .navigation {
@@ -560,11 +560,12 @@ body {
         padding: 0 20px;
       }
 
-      .banner{
-              h3{
+      .banner {
+        h3 {
           text-align: center;
         }
-        p{
+
+        p {
           text-align: center;
         }
       }
@@ -573,31 +574,32 @@ body {
     .main.active {
       left: 100%;
     }
-    .adjust{
-      padding: 0 20px;
-      padding-top: 80px;
 
+    .adjust {
+      padding: 80px 20px 0;
     }
-    .about{
-      .content{
+
+    .about {
+      .content {
         flex-direction: column;
 
-        .imgBox{
+        .imgBox {
           margin-left: 0;
           margin-top: 20px;
-          img{
+
+          img {
             width: 50%;
             //109:31
           }
         }
       }
     }
-    .services{
-      .content{
-        grid-template-columns: repeat(2,1fr);
-.serviceBox{
 
-}
+    .services {
+      .content {
+        grid-template-columns: repeat(2,1fr);
+
+        .serviceBox {}
       }
     }
   }
