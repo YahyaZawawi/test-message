@@ -112,9 +112,11 @@ body { overflow-x: hidden; }
 
 .container .main .contact .contactForm .row2 { width: 100%; margin-top: 40px; justify-content: center; align-items: center; display: flex; }
 
-.container .main .contact .contactForm .row2 textarea { width: 100%; padding: 10px; border: none; outline: none; color: var(--black); background: var(--white2); font-size: 16px; border: 1px solid rgba(0, 0, 0, 0.1); resize: none; height: 200px; }
-
 .container .main .contact .contactForm .row2 input[type="submit"] { background: var(--black2); color: #fff; padding: 10px 30px; display: inline-block; font-weight: 500; letter-spacing: 2px; cursor: pointer; font-size: 16px; text-transform: uppercase; max-width: 150px; border: none; }
+
+.container .main .contact .contactForm .row2__message { margin-top: 55px; }
+
+.container .main .contact .contactForm .row2__message .textbox { width: 100%; padding: 10px; border: none; outline: none; color: var(--black); background: var(--white2); font-size: 16px; border: 1px solid rgba(0, 0, 0, 0.1); resize: none; height: 200px; text-align: center; top: 500px; }
 
 .container .main .contact .contactForm .copyright { position: relative; bottom: 0; padding: 10px 40px; text-align: center; }
 
@@ -134,7 +136,7 @@ body { overflow-x: hidden; }
   .container .main .banner h3 { text-align: center; }
   .container .main .banner p { text-align: center; }
   .container .main.active { left: 100%; }
-  .container .adjust { padding: 0 20px; padding-top: 80px; }
+  .container .adjust { padding: 80px 20px 0; }
   .container .about .content { flex-direction: column; }
   .container .about .content .imgBox { margin-left: 0; margin-top: 20px; }
   .container .about .content .imgBox img { width: 50%; }
